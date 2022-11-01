@@ -1,11 +1,10 @@
 {
-  "name": "ssn-validation",
+  "name": "birth-number-validator",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "Simple validator for norwegian birth numbers",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon src/index.ts",
-    "test": "ts-mocha test/**.ts"
+    "test": "ts-mocha ./test/**.test.*"
   },
   "keywords": [],
   "author": "Martin Jakobsen <martinjakobsen93@gmail.com>",
